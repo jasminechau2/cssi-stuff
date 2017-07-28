@@ -1,0 +1,81 @@
+
+#header {
+  color: pink;
+  background-color: grey;
+  text-align:center;
+  border: 3px dashed aqua;
+}
+#linkedPosts{
+  text-align: center;
+  font-size: 18;
+  background-color: aqua;
+  color: RGB(255, 20, 147);
+  border: 2px dashed grey;
+  padding-bottom: 20px;
+}
+#profileSummary{
+  font-size: 16;
+  font-weight: normal;
+  background-color: pink;
+  width: auto;
+  height: 250px;
+  display: flex;
+  border: 1px solid black;
+}
+#picofme{
+  display: block;
+  height: 250px;
+  width: 250px;
+  padding-right:4px;
+
+}
+
+#subHeader{
+  text-align: center;
+  color: RGB(255, 20, 147);
+  background-color: aqua;
+  border: 2px dotted grey;
+}
+#lakeTahoe{
+  display: block;
+  align-content: center;
+}
+
+#contact{
+  font-size: 16;
+  background-color: pink;
+  text-align: center;
+  border: 2px dashed aqua;
+  margin-top: 15px;
+  width: 200px;
+  height: 150px;
+}
+
+#commentbox{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 80px;
+}
+
+.randomheaders{
+  color: grey;
+}
+
+.backgroundImage{
+  font-size: 10px;
+  margin-top: 500px;
+  background-color: white;
+  display: flex;
+  width: 200px;
+}
+ .posttext{
+  background-color: pink;
+  color: grey;
+}
+.movies{
+  background-color: pink;
+  color: grey;
+  text-align: center;
+  list-style-type: none;
+}
