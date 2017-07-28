@@ -1,0 +1,19 @@
+<html>
+ <body>
+   <h1>FakeMail</h1>
+   <h2>Welcome {{ name }}</h2>
+   <ul>
+     {% for email in emails %}
+       <li>
+         {% if email.unread %}
+           (unread)
+         {% endif %}
+         {{ email.subject }}
+         {% if email.subject.find("Help!") != -1 %}
+           (spam)
+          {% endif %}</li>
+     {% endfor %}
+   </ul>
+
+ </body>
+</html>
